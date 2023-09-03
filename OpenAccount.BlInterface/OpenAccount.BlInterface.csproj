@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\OpenAccount.Entities\OpenAccount.Entities.csproj" />
+		<ProjectReference Include="..\OpenAccount.Publics\OpenAccount.Publics.csproj" />
+	</ItemGroup>
+
+</Project>
